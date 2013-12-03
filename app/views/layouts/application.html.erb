@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%=@titre%></title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<div id="conteneur">
+      <div id="header">
+	  <%= render 'layouts/logo' %>
+	  <div id="login">login</div>
+	  <%= render 'layouts/menu' %>
+      </div>
+      <div id="banniere">
+     <%=if @banniere=="banniereH"
+      render 'layouts/banniereH'
+      end%>
+      <%= if @banniere=="banniereAnnuaire"
+      render 'layouts/banniereA'
+      end%>
+      
+     </div>
+     
+ <div id="contenu">
+      <div id="wrap">
+      <%= yield %>
+      
+      </div>
+ 
+ 
+ </div>
+ 
+
+
+</div>
+
+
+
+</body>
+</html>

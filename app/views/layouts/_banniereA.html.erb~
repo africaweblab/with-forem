@@ -1,0 +1,7 @@
+     <div class="banniere-b">
+	 <h1>Annuaire des sites web</h1>
+	 </div>
+       <div class="banniere-b">
+	    <%=image_tag("doc-pages.png", :alt => "ze doc, la mascotte de africa web lab")%>
+       </div>
+    

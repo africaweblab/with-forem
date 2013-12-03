@@ -1,0 +1,12 @@
+      <div class="banniere-a">
+	  <span>Pourquoi Africa Web Lab?</span>
+	  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum dolor ut lorem pellentesque convallis. Maecenas mattis laoreet nunc, eu tempus metus congue ac. Aliquam at velit luctus.</p>
+       </div>
+       <div class="banniere-a">
+	    <%=image_tag("vers.png", :alt => "ze doc, la mascotte de africa web lab")%>
+       </div>
+       <div class="banniere-a">
+	    <span>Aidez nous</span>
+	    <p><%=image_tag("eprouvette.png", :alt => "eprouvette,africa web lab, laboratoire du web africain" ,:class =>"eprouvette")%>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum dolor ut lorem pellentesque convallis. Maecenas mattis laoreet nunc, eu tempus metus congue ac. Aliquam at velit luctus</p>
+       
+       </div>

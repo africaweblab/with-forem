@@ -1,0 +1,1 @@
+<div id="logo"><%= link_to logo %></div>

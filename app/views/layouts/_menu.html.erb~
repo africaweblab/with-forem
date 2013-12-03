@@ -1,0 +1,19 @@
+  <div id="menu">
+	<ul>
+	      <li><%= link_to "accueil", '/' %></li>
+	      <li><%= link_to "Qui sommes nous?", '/qui-sommes-nous' %></li>
+	      <li><%= link_to "Concours", '/concours-africa-web-challenge' %></li>
+	      <li><%= link_to "Référencez", '#' %></li>
+	      <li><%= link_to "Annuaires", 'annuaire' %></li>
+	      <li><%= link_to "Informez-vous", '#' %></li>
+	      <li class="forum"><%= link_to "Forum", '#' %><%=image_tag("doc.png", :alt => "ze doc",:id =>"pos")%></li>
+	      <li><%= link_to "Contact", '/contactez-africa-web-lab' %></li>
+	</ul>
+	<div id="search">
+	      <%= form_tag("/search", method: "get") do %>
+	    <%= text_field_tag(:trouver) %>
+	    <%= submit_tag("Go") %>
+	  <% end %>
+	</div>
+	
+    </div>
